@@ -34,7 +34,7 @@ export default function HomePage() {
 
   // 🔹 Cargar lista de usuarios al inicio
   useEffect(() => {
-    console.log("iguyguyguyguyg");
+    console.log("fecth");
     
     fetchUsuarios()
   }, [])
