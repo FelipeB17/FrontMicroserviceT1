@@ -10,7 +10,7 @@ import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import { Plus, Mail, Phone, CreditCard, User, Trash2, Search, Edit } from "lucide-react"
 
-const API_URL = "http://localhost:8081/api/usuario"
+const API_URL = "http://35.231.186.103:8081/api/usuario"
 
 export default function HomePage() {
   const [usuarios, setUsuarios] = useState<any[]>([])
